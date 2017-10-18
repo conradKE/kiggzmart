@@ -1,0 +1,282 @@
+.categoryy {
+    margin-top: 8px;
+    border: 2px solid #fe7c61;
+    border-radius: 0px 0px 0px 0px;
+    align-content: center;
+    margin: auto;
+    padding-left: 25px;
+}
+
+ /* Dropdown Button */
+.dropbtn {
+    text-decoration: none;
+    margin: 2px;
+    background-color: #fe7c61;
+    color: white;
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 10px;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #FFC300;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fe7c61;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: white;
+    padding: 5px 5px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #FFC300;}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+.contents{ 
+     margin: auto;
+     align-content: center;
+ }
+.products {
+    /* Add shadows to create the "card" effect */
+    transition: 0.3s;
+    margin: 8px;
+    padding: 10px;
+    float: left;
+    box-sizing: 100px;
+    height: 124px;
+    width: 124px;
+    margin-top: 8px;
+    border: 1px solid #FFA997;
+    font-family: 'Yu Gothic';
+    border-radius: 5px 10px 10px 0px;
+    align-content: center;
+    font-size: x-small;
+    font-weight: 600;
+}
+
+
+/* On mouse-over, add a deeper shadow */
+.products:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border-radius: 5px 10px 10px 0px;
+     
+}
+/* Add some padding inside the card container */
+.container {
+   margin: 1px;
+    padding: 2px 5px;
+     border-top: 1px solid #FF5733;
+  
+    height:10px
+     border-radius: 5px;
+}
+.container:hover {
+    margin: 1px;
+    padding: 2px 5px;
+     border-top: 4px solid #FF5733;
+    background: #ffddd6;
+     height:10px
+      border-radius: 5px;
+}
+   
+
+h4{
+    margin:1px;
+    size: 2px;
+
+}
+p{
+  margin: 1px;
+  size: 1px;
+}
+.imageframe{
+margin:auto;
+   
+
+}
+img {
+     margin: auto;
+     max-width: 100%;
+     height: 75px;
+     border-radius: 5px;
+    
+}   
+
+@media screen and (max-width: 600px) {
+
+    .products {
+        /* Add shadows to create the "card" effect */
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.55);
+        transition: 0.3s;
+        margin: 10px;
+        padding: 10px;
+        float: left;
+        box-sizing: 100px;
+        height: 140px;
+        width: 140px;
+        margin-top: 8px;
+    
+    
+        border-radius: 5px 10px 10px 0px;
+      align-content: center;
+    
+      }
+/* On mouse-over, add a deeper shadow */
+    .products:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        border-radius: 5px 10px 10px 0px;
+          }
+    /* Add some padding inside the card container */
+    .container {
+       margin: 1px;
+        padding: 2px 5px;
+         border-top: 4px solid #FF5733;
+        background-color: #f9df89;
+        height:5px
+         border-radius: 5px;
+
+    }
+    .container:hover {
+        margin: 1px;
+        padding: 2px 5px;
+         border-top: 4px solid #FF5733;
+        background: #ffddd6;
+         height:5px
+          border-radius: 5px;
+    }
+       
+    .imageframe{
+        margin:auto;
+    }
+        img {
+             margin: auto;
+             max-width: 100%;
+             height: 80px;
+             border-radius: 5px;
+             } 
+             h4{
+                margin:1px;
+                size: 2px;
+            
+            }
+            p{
+              margin: 1px;
+              size: 1px;
+            }     
+    
+    
+  
+}
+
+@media screen and (max-width: 400px) {
+    
+        .products {
+            /* Add shadows to create the "card" effect */
+       
+            transition: 0.3s;
+            padding: 10px;
+            box-sizing: 120px;
+            height: 150px;
+            width: 90%;
+            margin-top: 8px;
+  border-radius: 5px 10px 0px 0px;
+  border: 2px solid  #FFA997;
+        
+          align-content: center;
+        
+          }
+    /* On mouse-over, add a deeper shadow */
+        .products:hover {
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+            border-radius: 5px 10px 0px 0px;
+            height: 160px;
+
+            
+              }
+        /* Add some padding inside the card container */
+        .container {
+           margin: 1px;
+            padding: 2px 5px;
+             border-top: 4px solid rgb(255, 87, 51);
+            background-color: #f9df89;
+            height:5px
+             border-radius: 5px;
+        }
+      
+           
+        .imageframe{
+            margin:auto;
+        }
+            img {
+                 margin: auto;
+                 max-width: 100%;
+                 height: 100px;
+                 border-radius: 5px;
+                 } 
+             img:hover {
+                margin: auto;
+                max-width: 100%;
+                height: 110px;
+                border-radius: 5px;
+
+             }
+
+    h4 {
+        margin: 1px;
+        
+        font-size: 12px;
+    }
+                p{
+                  margin: 1px;
+                
+                }     
+            }
+
+.phead{
+background-color: #FF5733;
+color: #FFFFFF;
+padding-left: 3px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size:12px;
+
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+p{
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+/*products category head*/
+  .pproducts{
+
+
+    
+  }
